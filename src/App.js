@@ -7,8 +7,8 @@ import MyButton from './Components/UI/MyButton/MyButton';
 import cl from './app.module.css';
 import Footer from './Components/Footer';
 
-function App() {
-  const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem('tasks')));
+function App() { 
+  const [tasks, setTasks] = useState(localStorage.getItem('tasks') ? JSON.parse(localStorage.getItem('tasks')) : []);
   const [visible, setVisible] = useState(false);
   const [query, setQuery] = useState('');
   const create = (item) => {
