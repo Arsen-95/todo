@@ -1,0 +1,29 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid teal;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    
+}
+
+.text {
+    text-align: left;
+}
+
+.btns {
+    display: flex;
+}
+
+.asd {
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+

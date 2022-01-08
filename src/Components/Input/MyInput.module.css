@@ -1,0 +1,13 @@
+.myInput {
+  min-width: 300px;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: 1px solid  green;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.myInput:focus {
+  border: 2px solid blue;
+}
